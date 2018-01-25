@@ -1,0 +1,15 @@
+body {
+	background-color: #212121; font-family: "Roboto", "Helvetica", "Arial", sans-serif; color: #fff;
+}
+.container {
+	margin-top: 60px;
+}
+.img-profile {
+	display: block; max-width: 200px !important; margin: 0 auto;
+}
+.text-logo {
+	text-transform: uppercase;
+}
+.text-logo > span {
+	color: #1E88E5; font-weight: 200;
+}
