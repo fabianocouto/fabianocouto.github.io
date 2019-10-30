@@ -1,0 +1,10 @@
+vscode:
+  extensions:
+    - annsk.alignment@0.3.0:fU2zs16WN1jSndyszRA6kA==
+    - neilbrayfield.php-docblocker@2.0.1:N8qRdNiK0Juc8AA+Jp8oHQ==
+    - bmewburn.vscode-intelephense-client@1.2.3:3EBGRE70flX1xI3ODmVhCQ==
+    - shardulm94.trailing-spaces@0.3.1:EAY8DpjNUWAX4Yxx9aQPRQ==
+    - huizhou.githd@2.1.0:xahLXI2Oas1i8u3jvkrxNw==
+ports:
+  - port: 5000
+    onOpen: open-preview
