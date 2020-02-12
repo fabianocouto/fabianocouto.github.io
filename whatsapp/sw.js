@@ -1,4 +1,4 @@
-let swCache = 'whatsappopenchat-sw-v2';
+let swCache = 'whatsappopenchat-sw-v3';
 
 self.addEventListener('install', event => {
 
