@@ -1,4 +1,4 @@
-let swCache = 'whatsappchat-sw-v5';
+let swCache = 'whatsappchat-sw-v6';
 
 self.addEventListener('install', event => {
 

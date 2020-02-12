@@ -12,12 +12,18 @@ App = {
     redirectToWebApp: function()
     {
         location.href = 'https://web.whatsapp.com/';
+    },
+    showForm: function()
+    {
+        $('form').fadeIn();
     }
 }
 
 $(document).ready(function(){
     if (!App.isMobile() && App.isInstalled()) {
         App.redirectToWebApp();
+    } else {
+        App.showForm();
     }
 });
 
