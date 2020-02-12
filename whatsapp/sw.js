@@ -1,4 +1,4 @@
-let swCache = 'whatsappopenchat-sw-v3';
+let swCache = 'whatsappchat-sw-v4';
 
 self.addEventListener('install', event => {
 
@@ -8,20 +8,22 @@ self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(swCache).then(cache => {
       return cache.addAll([
-        './icon/apple-icon-57x57.png',
-        './icon/apple-icon-60x60.png',
-        './icon/apple-icon-72x72.png',
-        './icon/apple-icon-76x76.png',
-        './icon/apple-icon-114x114.png',
-        './icon/apple-icon-120x120.png',
-        './icon/apple-icon-144x144.png',
-        './icon/apple-icon-152x152.png',
-        './icon/apple-icon-180x180.png',
-        './icon/android-icon-192x192.png',
-        './icon/favicon-32x32.png',
-        './icon/favicon-96x96.png',
-        './icon/favicon-16x16.png',
-        './icon/ms-icon-144x144.png',
+        './assets/img/icon/apple-icon-57x57.png',
+        './assets/img/icon/apple-icon-60x60.png',
+        './assets/img/icon/apple-icon-72x72.png',
+        './assets/img/icon/apple-icon-76x76.png',
+        './assets/img/icon/apple-icon-114x114.png',
+        './assets/img/icon/apple-icon-120x120.png',
+        './assets/img/icon/apple-icon-144x144.png',
+        './assets/img/icon/apple-icon-152x152.png',
+        './assets/img/icon/apple-icon-180x180.png',
+        './assets/img/icon/android-icon-192x192.png',
+        './assets/img/icon/favicon-32x32.png',
+        './assets/img/icon/favicon-96x96.png',
+        './assets/img/icon/favicon-16x16.png',
+        './assets/img/icon/ms-icon-144x144.png',
+        './assets/img/screenshot.png',
+        './assets/js/app.js',
         './index.html'
       ]).then(() => self.skipWaiting())
     })
