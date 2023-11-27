@@ -63,7 +63,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
         with:
           commit_message: "chore(assets): update cached GRS files"
-          branch: main
+          branch: master
           commit_user_name: fabianocouto
           commit_user_email: facodeli@gmail.com
           commit_author: Fabiano Couto <facodeli@gmail.com>
