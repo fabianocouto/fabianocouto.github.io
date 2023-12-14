@@ -525,7 +525,7 @@
     <g transform="translate(230, 150)">
       <circle cx="5" cy="6" r="5" fill="#e38c00" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        SQL - 4 hrs 20 mins
+        SQL - 4 hrs 23 mins
       </text>
     </g>
   
